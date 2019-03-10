@@ -17,7 +17,6 @@
 //= require materialize
 
 $(document).on('turbolinks:load', function () {
+  $('.sidenav').sidenav();
   $(".dropdown-trigger").dropdown();
-    $('.sidenav').sidenav();
-  });
 })
